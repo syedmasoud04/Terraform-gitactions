@@ -165,3 +165,4 @@ kubectl apply -f k8s/deployment.yaml
 - The EKS cluster uses **us-east-1** region (matches your AWS CLI config)
 - Worker nodes use **t3.small** instances (minimum viable for EKS)
 - Application runs on port **3000** inside container, exposed on port **80** via LoadBalancer
+# Testing CI/CD
